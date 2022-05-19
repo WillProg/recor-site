@@ -21,9 +21,9 @@
 
             <div class="links">
               <ul>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Sobre nós</a></li>
-                <li><a href="#">Testimonials</a></li>
+                <li><a href="#projeto-base">Projeto base</a></li>
+                <li><a href="#projeto-recor">Atualização</a></li>
+                <li><a href="#sobre-nos">Sobre nós</a></li>
                 <li><a href="#" class="btn">Sign up</a></li>
               </ul>
             </div>
@@ -59,7 +59,135 @@
           </div>
         </div>
 
-        <section class="sobre-nos">
+        
+
+        <section id="projeto-base" class="projeto-base">
+          <h1>Projeto Base</h1>
+          <div class="container-base">
+            <div class="left">
+              <img src="/img/projeto-base.jpeg" alt="Projeto Base">
+            </div>
+            <div class="right">
+              <p class="text">
+                Nesta imagem está sendo apresentado o projeto 
+                base que usamos para seguir como apoio para o 
+                desenvolvimento do projeto.
+                <br>
+                <br>
+                <br>
+                A seguir temos a simulação do projeto base.
+            </div>
+          </div>
+          
+
+          <h2>Simulação do projeto</h2>
+          <div class="container-simulacao">
+            <div class="img-simulacao">
+              <img src="/img/projeto-base-simulado.png" alt="">
+            </div>
+            <h2>Materiais utilizados</h2>
+            <div class="componentes-simulacao">
+                <p># Protoboard <br>
+                # Arduino <br>
+                # Jumpers <br>
+                # Display LCD <br>
+                # Sensor RFID <br>
+                # Potenciômetro <br>
+                # Buzzer </p>
+              </ol>
+            </div>
+            <a class="btn" href="/img/CODIGIN0_3.ino" download="projeto">Baixar código</a>
+          </div>
+        </section>
+
+        <section id="projeto-recor" class="projeto-recor">
+          <h1>Recor</h1>
+          <div class="container-base">
+            <div class="left">
+              <img src="/img/projeto-recor.jpeg" alt="Projeto Base">
+            </div>
+            <div class="right">
+              <p class="text">
+                Nosso projeto vem para facilitar que nossos professores 
+                realizem a frequência com mais praticidade, visto que muita 
+                das vezes perdem muito tempo fazendo a frequência.
+                <br>
+                <br>
+                <br>
+                A seguir temos a simulação do projeto base.
+            </div>
+          </div>
+          <h2>Simulação do projeto</h2>
+          <div class="container-simulacao-esp">
+            <div class="img-simulacao-esp">
+              <img src="/img/simulacaoesp.jpeg" alt="">
+            </div>
+            <div class="componentes-simulacao">
+              <h2>Materiais utilizados</h2>
+              <p>
+              # ESP8266 <br>
+              # RFID <br>
+              # Jumpers <br>
+              # Display LCD <br>
+              # Sensor RFID <br>
+              # Buzzer </p>
+            </div>
+          </div>
+          <a class="btn" href="/img/firmware.ino" download="projeto">Baixar código</a>
+          <h2>Tecnologias utilizadas (bibliotecas, frameworks)</h2>
+          <div class="container-simulacao-esp">
+            <div class="componentes-simulacao">
+              <h3>CÓDIGO ESP8266</h3>
+              <p>
+              # rfid <br>
+              # pubsubclient
+              </p>
+              <h3>Back-end com Nodejs</h3>
+              <p>
+              # mqttjs <br>
+              # express <br>
+              # mysqljs
+              </p>
+            </div>
+          </div>
+
+          <h2>Fluxo do projeto</h2>
+          <div class="container-simulacao-esp">
+            <div class="img-simulacao-esp">
+              <img src="/img/rfid.png" alt="">
+            </div>
+            <div class="right">
+              <p class="text">
+                No diagrama acima, pode-se observar qual será o fluxo da aplicação que foi desenvolvida. 
+                Parece complicado, mas quando você começa entender como se da a comunicação de 
+                redes, você tira de letra uma arquitetura dessas.
+                <br>
+                Basicamente temos 2 fluxos neste projeto - o ping e o pong. 
+            </div>
+          </div>
+
+          <h2>Páginas da aplicação web</h2>
+          <div class="container-simulacao-esp">
+            <h3>CADASTRO ALUNO</h3>
+            <div class="img-aluno">
+              <img src="/img/aluno.png" alt="">
+            </div>
+          </div>
+          <div class="container-simulacao-esp">
+            <h3>FREQUÊNCIA DIA</h3>
+            <div class="img-chamada">
+              <img src="/img/chamada.png" alt="">
+            </div>
+          </div>
+
+          <h2>Vídeo do projeto</h2>
+          <div class="container-simulacao-esp">
+            <div class="img-simulacao-video">
+              <video controls src="/img/video.mp4"></video>
+            </div>
+        </section>
+
+        <section id="sobre-nos" class="sobre-nos">
           <h1>Conheça nossa equipe</h1>
           <div class="container-sobre">
             <div class="cards">
@@ -71,13 +199,13 @@
                   <h2>William<br /><span>Técnico em Eletrônica</span></h2>
                   <ul class="social_icons">
                     <li>
-                      <a href="#"><img src=".../icons/twitter.png" alt="" /> </a>
+                      <a href="#"><img src="/icons/twitter.png" alt="" /> </a>
                     </li>
                     <li>
-                      <a href="#"><img src=".../icons/linkedin.png" alt="" /> </a>
+                      <a href="#"><img src="/icons/linkedin.png" alt="" /> </a>
                     </li>
                     <li>
-                      <a href="https://www.instagram.com/william_waldhar/" target="_blank"><img src=".../icons/instagram.png" alt="" /> </a>
+                      <a href="https://www.instagram.com/william_waldhar/" target="_blank"><img src="/icons/instagram.png" alt="" /> </a>
                     </li>
                   </ul>
                 </div>
@@ -99,7 +227,7 @@
                       <a href="#"><img src="/icons/linkedin.png" alt="" /> </a>
                     </li>
                     <li>
-                      <a href="#"><img src="/icons/instagram.png" alt="" /> </a>
+                      <a href="https://www.instagram.com/ulysses.p1/" target="_blank"><img src="/icons/instagram.png" alt="" /> </a>
                     </li>
                   </ul>
                 </div>
@@ -134,7 +262,7 @@
               </div>
               <div class="content">
                 <div class="details">
-                  <h2>Whandersson<br /><span>Técnico em Eletrônica</span></h2>
+                  <h2>Wanderson<br /><span>Técnico em Eletrônica</span></h2>
                   <ul class="social_icons">
                     <li>
                       <a href="#"><img src="/icons/twitter.png" alt="" /> </a>
@@ -151,7 +279,6 @@
             </div>
           </div>
         </section>
-
         <div class="bottom-area">
           <div class="container">
             <button class="toggle-btn">

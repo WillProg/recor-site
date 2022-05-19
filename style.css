@@ -524,3 +524,127 @@ header .container {
   transform: rotate(360deg);
   background: #03a9f4;
 }
+
+/*PROJETO BASE*/
+.projeto-base .container-base{
+  display: flex;
+}
+.projeto-base h1{
+  margin-top: 40px;
+  font-size: 3.2rem;
+  text-align: center;
+  padding: 60px;
+  color: var(--darkOne);
+}
+.projeto-base .container-base .left {
+  width: 50%;
+}
+.projeto-base .left img {
+  width: 70%;
+  padding: 20px;
+}
+
+.projeto-base .right .text {
+  color: var(--lightOne);
+  font-size: 1.1rem;
+  margin: 1.9rem 0 2.5rem;
+  max-width: 600px;
+  line-height: 2.3;
+}
+
+/*PROJETO BASE - SIMULAÇÃO*/
+.projeto-base h2 {
+  font-size: 1.9rem;
+  text-align: left;
+  padding: 50px;
+  color: var(--darkOne);
+}
+.projeto-base .container-simulacao {
+  padding: 50px;
+  color: var(--darkOne);
+}
+
+.projeto-base .container-simulacao p {
+  padding: 0 50px;
+  color: var(--darkOne);
+}
+
+
+.projeto-base .container-simulacao .componentes-simulacao {
+}
+
+/*PROJETO RECOR*/
+
+/*PROJETO BASE*/
+.projeto-recor .container-base{
+  display: flex;
+}
+.projeto-recor h1{
+  margin-top: 40px;
+  font-size: 3.2rem;
+  text-align: center;
+  padding: 60px;
+  color: var(--darkOne);
+}
+.projeto-recor .container-base .left {
+  width: 50%;
+}
+.projeto-recor .left img {
+  width: 70%;
+  padding: 20px;
+}
+
+.projeto-recor .right .text {
+  color: var(--lightOne);
+  font-size: 1.1rem;
+  margin: 1.9rem 0 2.5rem;
+  max-width: 600px;
+  line-height: 2.3;
+}
+
+/*PROJETO recor - SIMULAÇÃO*/
+
+.projeto-recor h2 {
+  font-size: 1.9rem;
+  text-align: left;
+  padding: 50px;
+  color: var(--darkOne);
+}
+.projeto-recor .container-simulacao {
+  padding: 50px;
+  color: var(--darkOne);
+}
+
+.projeto-recor .container-simulacao-esp {
+  display: flex;
+}
+
+
+.projeto-recor .container-simulacao-esp p {
+  padding: 0 50px;
+  color: var(--darkOne);
+}
+
+.projeto-recor .container-simulacao .img-simulacao-esp img {
+  width: 40%;
+}
+
+/*recor - TECNOLOGIAS*/
+.projeto-recor h3 {
+  font-size: 1.4rem;
+  text-align: left;
+  padding: 30px 50px;
+  color: var(--darkOne);
+}
+
+.projeto-recor .img-simulacao-video video {
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+@media screen and (max-width: 470px) {
+  .projeto-recor .container-base{
+    display: block;
+  }
+}
